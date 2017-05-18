@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'rails', github: 'rails/rails'
-gem 'arel', github: 'rails/arel'
-gem 'rack', github: 'rack/rack'
+gem 'rails', git: 'https://github.com/rails/rails.git'
+gem 'arel', git: 'https://github.com/rails/arel.git'
+gem 'rack', git: 'https://github.com/rack/rack.git'
 
 group :development do
   platform :ruby do
